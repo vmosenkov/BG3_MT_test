@@ -4,6 +4,7 @@ import { FileModule } from "./file/file.module";
 import { ItemModule } from "./item/item.module";
 import { FileTypeModule } from "./fileType/fileType.module";
 import { TextureModule } from "./texture/texture.module";
+import { FilePreviewModule } from "./FilePreview/filepreview.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -21,6 +22,7 @@ import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
     ItemModule,
     FileTypeModule,
     TextureModule,
+    FilePreviewModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
